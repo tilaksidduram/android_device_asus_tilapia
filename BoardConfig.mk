@@ -32,7 +32,7 @@
 USE_CAMERA_STUB := true
 USE_PROPRIETARY_AUDIO_EXTENSIONS := false
 
-TARGET_RECOVERY_UI_LIB := librecovery_ui_tilapia
+BOARD_HAL_STATIC_LIBRARIES := libdumpstate.grouper
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/tilapia
 
