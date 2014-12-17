@@ -42,3 +42,9 @@ include device/asus/grouper/BoardConfigCommon.mk
 TARGET_RECOVERY_FSTAB = device/asus/tilapia/fstab.grouper
 
 MALLOC_IMPL := dlmalloc
+
+BOARD_SEPOLICY_DIRS += \
+        device/asus/tilapia/sepolicy
+
+BOARD_SEPOLICY_UNION += \
+        rild.te
